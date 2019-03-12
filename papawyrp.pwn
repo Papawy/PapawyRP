@@ -1,8 +1,15 @@
 #include <a_samp>
 
+#include <YSI\y_hooks>
+
 #define GM_NAME "PapawyRP"
 
-main()
+hook main()
 {
-	printf("Starting %s !\n", GM_NAME);
+	printf("Starting %s !", GM_NAME);
+
+	return 0;
 }
+
+#include "utils/macros.pwn"
+#include "utils/configfile.pwn"
