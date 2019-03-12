@@ -1,0 +1,8 @@
+dependencymeta:
+  site: "papawyrp.papawy.com"
+  user: Papawy
+  repo: papawyrp
+entry: papawyrp.pwn
+output: papawyrp.amx
+dependencies:
+- sampctl/samp-stdlib
